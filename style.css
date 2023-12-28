@@ -1,0 +1,12 @@
+body {
+  background-color: #ffffff;
+  
+}
+
+.nav-section {
+  min-width: 412px;
+  min-height: 144px;
+  max-width: 540px;
+  max-height: 144px;
+  border-bottom: solid 2px #ebebeb;
+}
