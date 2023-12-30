@@ -6,13 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AirBnB</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav class="nav-section">
-        <div class="searchBar-section">
-            <input type="text">
-            <button class="filterButton"></button>
+        <div class="searchButton-container">
+            <div class="searchButton-wrapper">
+                <button class="searchButton">
+                    <span class="searchIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
+                            role="presentation" focusable="false"
+                            style="display: block; height: 20px; width: 20px; fill: currentcolor;">
+                            <path
+                                d="M13 0a13 13 0 0 1 10.5 20.67l7.91 7.92-2.82 2.82-7.92-7.91A12.94 12.94 0 0 1 13 26a13 13 0 1 1 0-26zm0 4a9 9 0 1 0 0 18 9 9 0 0 0 0-18z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span>
+                        <div class="searchButton-Main_text">Anywhere</div>
+                        <div class="searchButton-Sub_text-container"><span class="searchButton-Sub_text">Any
+                                week</span><span class="searchButton-Sub_text">•</span><span
+                                class="searchButton-Sub_text">Add guests</span></div>
+                    </span> </button>
+            </div>
+            <div>
+                <button class="filterButton"></button>
+            </div>
         </div>
         <div class="nav_quickFind-section">
             <button></button>

@@ -1,12 +1,73 @@
+* {
+  font-family: "Circular", "-apple-system", "BlinkMacSystemFont", "Roboto",
+    "Helvetica Neue", sans-serif;
+  line-height: 20px;
+}
+
 body {
-  background-color: #ffffff;
-  
+  font-size: 14px;
+  width: 412px;
+  color: #222;
+  background-color: #fff;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .nav-section {
-  min-width: 412px;
-  min-height: 144px;
-  max-width: 540px;
-  max-height: 144px;
   border-bottom: solid 2px #ebebeb;
+}
+
+.searchButton-container {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 314px 40px;
+  padding: 14px 24px 0;
+}
+
+.searchButton-wrapper {
+  width: 312px;
+  height: 54px;
+}
+
+.searchButton {
+  display: grid;
+  align-items: center;
+  text-align: start;
+  grid-template-columns: 52px 252px;
+  width: 304px;
+  height: 54px;
+  border: 1px solid #f6f6f6;
+  border-top-right-radius: 1000px;
+  border-top-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgba(0 0 0/0.1);
+  padding: 0;
+}
+
+.searchIcon {
+  display: grid;
+  align-items: center;
+  width: 52px;
+  height: 20px;
+  justify-items: center;
+}
+
+.searchButton-Main_text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #222222;
+}
+
+.searchButton-Sub_text-container {
+  display: flex;
+  column-gap: 5px;
+  padding-right: 24px;
+  height: 16px;
+  line-height: 16px;
+}
+.searchButton-Sub_text {
+  font-size: 12px;
+  color: #717171;
 }
