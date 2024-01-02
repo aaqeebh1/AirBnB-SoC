@@ -34,9 +34,9 @@ body {
   align-items: center;
   text-align: start;
   grid-template-columns: 52px 252px;
-  width: 304px;
+  width: 312px;
   height: 54px;
-  border: 1px solid #f6f6f6;
+  border: 1px solid #22222215;
   border-top-right-radius: 1000px;
   border-top-left-radius: 1000px;
   border-bottom-right-radius: 1000px;
@@ -58,6 +58,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   color: #222222;
+  line-height: 20px;
 }
 
 .searchButton-Sub_text-container {
@@ -65,9 +66,25 @@ body {
   column-gap: 5px;
   padding-right: 24px;
   height: 16px;
-  line-height: 16px;
 }
 .searchButton-Sub_text {
   font-size: 12px;
   color: #717171;
+  line-height: 16px;
+}
+
+.filterButton-wrapper {
+  align-self: center;
+}
+
+.filterButton {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border: solid 1px #76767660;
+  border-radius: 50%;
+}
+
+.filterButton svg {
+  margin: 0 auto;
 }
