@@ -13,9 +13,13 @@ body {
   box-sizing: border-box;
 }
 
+/* Nav Section */
+
 .nav-section {
   border-bottom: solid 2px #ebebeb;
 }
+
+/* search button section */
 
 .searchButton-container {
   display: grid;
@@ -73,6 +77,8 @@ body {
   line-height: 16px;
 }
 
+/* filter button */
+
 .filterButton-wrapper {
   align-self: center;
 }
@@ -87,4 +93,37 @@ body {
 
 .filterButton svg {
   margin: 0 auto;
+}
+
+/* quick find buttons */
+
+.quickFind-section{
+  height: 74px;
+  display: flex;
+  gap: 15px;
+}
+
+.quickFind-buttons:nth-child(1){
+  margin-left: 15px;
+}
+
+.quickFind-buttons {
+  border: none;
+  background-color: #fff;
+  margin: 12px 0 10px;
+  padding: 4px 0;
+}
+
+.quickFind-buttons p {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #717171;
+}
+
+.quickFind-icons {
+  height: 24px;
+  width: 24px;
+  opacity: 0.7;
 }
